@@ -33,7 +33,7 @@ from  XAS3D2026 import XAS3Dabs
 import matplotlib.pyplot as plt
 
 
-setting_f_model="best256_3_0.0005_5_2_82_5.pt"
+setting_f_model="model_example_MnJT_best256_3_0.0005_5_2_82_5.pt"
 setting_prefix1="Mn_example"
 #model = ComENetF1(out_channels=npt,cutoff=cutoff,num_layers=3,hidden_channels=64,middle_channels=256,num_output_layers=2,num_radial=6,num_spherical=3)
 model = model = XAS3Dabs(out_channels=241,cutoff=8.0,num_layers=3,hidden_channels=256,middle_channels=82,num_output_layers=5,num_radial=5,num_spherical=2)
