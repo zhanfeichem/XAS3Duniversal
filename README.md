@@ -12,8 +12,6 @@ Ni50FeCoCuZn8.5k_train_pos.npy,Ni50FeCoCuZn8.5k_train_y.npy,Ni50FeCoCuZn8.5k_tra
 FeCoCuZn1k_valid_pos.npy,FeCoCuZn1k_valid_y.npy,FeCoCuZn1k_valid_z.npy </br>
 copy atomic number file La4d3d_unconv_valid_z.npy to folder "run_expalin_3d4dLa". </br>
 ## Running
-First, copy the dataset from the "dataset_Ni" folder to the "run_MOE" "run_energyrange","run_one_element",folder, or change the dataset file location in the code.</br>
-The meaning of Parameter 99 is to call the hyperparameter file name99.txt.</br>
 "run_one_element" simple example:  
 python valid_XAS3Dabs_Ni_3d.py 99</br>
 
@@ -28,7 +26,7 @@ python valid_moe.py 99</br>
 
 "expalin_3d4dLa" Model interpretability </br>
 
-
+The meaning of Parameter 99 is to call the hyperparameter file name99.txt.</br>
 
 ## Installation Overview
 conda create -n pyg_pl python==3.9 </br>
