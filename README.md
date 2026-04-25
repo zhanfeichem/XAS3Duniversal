@@ -3,18 +3,14 @@
 ## Dataset
 https://nadc.china-vo.org/res/r101826/ </br>
 copy Ni element dataset to "run_MOE" "run_energyrange","run_one_element",folder, or change the dataset file location in the code.</br>
-Ni_CCDC_test_mpid.npy
-Ni_CCDC_test_pos.npy
-Ni_CCDC_test_y.npy
-Ni_CCDC_test_z.npy
-Ni_CCDC_train_mpid.npy
-Ni_CCDC_train_pos.npy
-Ni_CCDC_train_y.npy
-Ni_CCDC_train_z.npy
-Ni_CCDC_valid_mpid.npy
-Ni_CCDC_valid_pos.npy
-Ni_CCDC_valid_y.npy
-Ni_CCDC_valid_z.npy
+Ni element dataset:</br>
+Ni_CCDC_train_pos.npy,Ni_CCDC_train_y.npy,Ni_CCDC_train_z.npy</br>
+Ni_CCDC_valid_pos.npy,Ni_CCDC_valid_y.npy,Ni_CCDC_valid_z.npy</br>
+Ni_CCDC_test_pos.npy,Ni_CCDC_test_y.npy,Ni_CCDC_test_z.npy</br>
+copy atomic number file La4d3d_unconv_valid_z.npy to folder "run_expalin_3d4dLa". </br>
+copy below dataset file for data experiment to "run_Ni50FeCoCuZn" folder. </br>
+Ni50FeCoCuZn8.5k_train_pos.npy,Ni50FeCoCuZn8.5k_train_y.npy,Ni50FeCoCuZn8.5k_train_z.npy  </br>
+FeCoCuZn1k_valid_pos.npy,FeCoCuZn1k_valid_y.npy,FeCoCuZn1k_valid_z.npy </br>
 ## Running
 First, copy the dataset from the "dataset_Ni" folder to the "run_MOE" "run_energyrange","run_one_element",folder, or change the dataset file location in the code.</br>
 The meaning of Parameter 99 is to call the hyperparameter file name99.txt.</br>
