@@ -1,7 +1,7 @@
 # XAS3Duniversal
 
 ## Dataset
-https://nadc.china-vo.org/res/r101826/
+https://nadc.china-vo.org/res/r101826/ </br>
 copy Ni element dataset to "run_MOE" "run_energyrange","run_one_element",folder, or change the dataset file location in the code.</br>
 Ni_CCDC_test_mpid.npy
 Ni_CCDC_test_pos.npy
