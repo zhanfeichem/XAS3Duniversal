@@ -2,6 +2,19 @@
 
 ## Dataset
 https://nadc.china-vo.org/res/r101826/
+copy Ni element dataset to "run_MOE" "run_energyrange","run_one_element",folder, or change the dataset file location in the code.</br>
+Ni_CCDC_test_mpid.npy
+Ni_CCDC_test_pos.npy
+Ni_CCDC_test_y.npy
+Ni_CCDC_test_z.npy
+Ni_CCDC_train_mpid.npy
+Ni_CCDC_train_pos.npy
+Ni_CCDC_train_y.npy
+Ni_CCDC_train_z.npy
+Ni_CCDC_valid_mpid.npy
+Ni_CCDC_valid_pos.npy
+Ni_CCDC_valid_y.npy
+Ni_CCDC_valid_z.npy
 ## Running
 First, copy the dataset from the "dataset_Ni" folder to the "run_MOE" "run_energyrange","run_one_element",folder, or change the dataset file location in the code.</br>
 The meaning of Parameter 99 is to call the hyperparameter file name99.txt.</br>
