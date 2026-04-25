@@ -11,6 +11,7 @@ copy below dataset file for data experiment to "run_Ni50FeCoCuZn" folder. </br>
 Ni50FeCoCuZn8.5k_train_pos.npy,Ni50FeCoCuZn8.5k_train_y.npy,Ni50FeCoCuZn8.5k_train_z.npy  </br>
 FeCoCuZn1k_valid_pos.npy,FeCoCuZn1k_valid_y.npy,FeCoCuZn1k_valid_z.npy </br>
 copy atomic number file La4d3d_unconv_valid_z.npy to folder "run_expalin_3d4dLa". </br>
+copy model file model_example_MnJT_best256_3_0.0005_5_2_82_5.pt to folder "run_fit_MnJT".  </br>
 ## Running
 "run_one_element" simple example:  
 python valid_XAS3Dabs_Ni_3d.py 99</br>
